@@ -1,0 +1,12 @@
+book_filename: "GEOG0013: GIF1"
+rmd_files:
+- index.rmd
+- 01-Fieldwork.Rmd
+- 02-Workshop.Rmd
+- 03-Login_ArcGIS_Online.Rmd
+
+language:
+  ui:
+    chapter_name: ""
+delete_merged_file: true
+output_dir: "docs"

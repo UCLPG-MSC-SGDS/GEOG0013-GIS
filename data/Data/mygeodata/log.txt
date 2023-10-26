@@ -1,0 +1,36 @@
+Warning 6: Field time create as date field, though DateTime requested.
+Warning 6: Normalized/laundered field name: 'geoidheight' to 'geoidheigh'
+Warning 6: Normalized/laundered field name: 'ageofdgpsdata' to 'ageofdgpsd'
+Warning 6: Field time create as date field, though DateTime requested.
+Warning 6: Normalized/laundered field name: 'geoidheight' to 'geoidheigh'
+Warning 6: Normalized/laundered field name: 'ageofdgpsdata' to 'ageofdgpsd'
+Warning 6: Field time create as date field, though DateTime requested.
+Warning 6: Normalized/laundered field name: 'geoidheight' to 'geoidheigh'
+Warning 6: Normalized/laundered field name: 'ageofdgpsdata' to 'ageofdgpsd'
+Warning 6: Normalized/laundered field name: 'route_point_id' to 'route_poin'
+Warning 6: Field time create as date field, though DateTime requested.
+Warning 6: Normalized/laundered field name: 'geoidheight' to 'geoidheigh'
+Warning 6: Normalized/laundered field name: 'ageofdgpsdata' to 'ageofdgpsd'
+Warning 6: Normalized/laundered field name: 'route_point_id' to 'route_poin'
+Warning 6: Field time create as date field, though DateTime requested.
+Warning 6: Normalized/laundered field name: 'geoidheight' to 'geoidheigh'
+Warning 6: Normalized/laundered field name: 'ageofdgpsdata' to 'ageofdgpsd'
+Warning 6: Normalized/laundered field name: 'route_point_id' to 'route_poin'
+Warning 6: Field time create as date field, though DateTime requested.
+Warning 6: Normalized/laundered field name: 'geoidheight' to 'geoidheigh'
+Warning 6: Normalized/laundered field name: 'ageofdgpsdata' to 'ageofdgpsd'
+Warning 6: Normalized/laundered field name: 'track_seg_id' to 'track_seg_'
+Warning 6: Normalized/laundered field name: 'track_seg_point_id' to 'track_se_1'
+Warning 6: Field time create as date field, though DateTime requested.
+Warning 6: Normalized/laundered field name: 'geoidheight' to 'geoidheigh'
+Warning 6: Normalized/laundered field name: 'ageofdgpsdata' to 'ageofdgpsd'
+Warning 6: Normalized/laundered field name: 'track_seg_id' to 'track_seg_'
+Warning 6: Normalized/laundered field name: 'track_seg_point_id' to 'track_se_1'
+Warning 6: Field time create as date field, though DateTime requested.
+Warning 6: Normalized/laundered field name: 'geoidheight' to 'geoidheigh'
+Warning 6: Normalized/laundered field name: 'ageofdgpsdata' to 'ageofdgpsd'
+Warning 6: Normalized/laundered field name: 'track_seg_id' to 'track_seg_'
+Warning 6: Normalized/laundered field name: 'track_seg_point_id' to 'track_se_1'
+Warning 6: Field time create as date field, though DateTime requested.
+Warning 6: Normalized/laundered field name: 'geoidheight' to 'geoidheigh'
+Warning 6: Normalized/laundered field name: 'ageofdgpsdata' to 'ageofdgpsd'

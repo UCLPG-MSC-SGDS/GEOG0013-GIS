@@ -1,0 +1,55 @@
+# Part 2: GIS Workshop {-}
+
+```{r echo=FALSE, out.width = "100%", fig.align='center', cache=TRUE,}
+knitr::include_graphics('images/general/arcgis_online_image.jpeg') 
+```
+
+Welcome to **GIF1’s Introduction to GIS & Mapping**. This session focuses on the themes of **GIS (Geographical Information Systems)** and **Digital Geography**. Here, we will provide you with an introduction on how to visualise geographic data collected from the field trip in Barcelona and London using the online platforms: **ArcGIS Map**, and **ArcGIS StoryMaps** for interactive mapping and digital storytelling.
+
+We prepared some tutorials to help you create you own interactive StoryMap (based on your data collected from abroad) but we will be using the steps from a motivating example used to create the story map titled: **"Short Revisit to the Cholera Outbreak in Soho, London (1854)"** 
+
+[**[SEE EXAMPLE HERE]**](https://arcg.is/5SaXT)
+
+## Timetable & Group Allocation {-}
+
+This is a 3-hour group computer practical workshop that will be delivered in-person. All students have been allocated to one of 8 groups (i.e., group **A**, **B**, **C**, **D**, **E**, **F**, **G**, **H** or **I**). The workshop for week 7's **Introduction to GIS** will take place on the following dates:
+
+1. **Wednesday 23th November, 09:00am-12:00pm** for groups **F**, **G**, **H**, **I**
+2. **Friday 25th November, 02:00pm-05:00pm** for groups **A**, **B**, **C**, **D**, **E**
+
+**Group room allocations**: Here are the details for the room location. Please use the table below to view the map details of the location, as well as watch the embedded videos to see how to get to the location. To avoid confusion, please go to your group's designated cluster room.
+
+|**Group**|**Date**|**Location**|
+|:--- |:---------        |:-----------------------   |
+|**A**|**Friday, 25/11**|Chadwick Building, Room 2.23, [**Map**](https://www.ucl.ac.uk/maps/chadwick-building); [**Video**](https://web.microsoftstream.com/video/bdbd4a45-0ac6-4bd2-ad01-375d44c11894)|
+|**B**|**Friday, 25/11**|Bedford Way (26), Room G11, [**Map**](http://www.ucl.ac.uk/maps/26-bedford-way); [**Video**](https://web.microsoftstream.com/video/c042e8b2-e974-48ea-b131-4f93d60db139)|
+|**C**|**Friday, 25/11**|ICH Wolfson Centre, Room I (1st floor), [**Map**](https://www.google.com/maps/dir/UCL+Main+Campus,+Gower+Street,+London/UCL+ICH+Wolfson+Centre/@51.5243866,-0.1318637,16z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x48761b2f42906f4d:0xe2bdd108bab11257!2m2!1d-0.1344218!2d51.5244928!1m5!1m1!1s0x48761b38226fe5ff:0x9657cf9c642d5c9!2m2!1d-0.1195551!2d51.5253103!3e2); **Video**|
+|**D**|**Friday, 25/11**|Birkbeck Gordon Sq (43); Room B06, [**Map**](https://www.google.com/maps/dir/UCL+Main+Campus,+Gower+St,+London+WC1E+6AE/London,+Gordon+Square,+School+of+Arts,+Birkbeck+College邮政编码:+WC1H+0PD/@51.5250275,-0.1380924,17z/data=!4m14!4m13!1m5!1m1!1s0x48761b2f42906f4d:0xe2bdd108bab11257!2m2!1d-0.1344218!2d51.5244928!1m5!1m1!1s0x48761b9264ab4f15:0x237694b60343c106!2m2!1d-0.1303771!2d51.5246366!3e2); [**Video**](https://web.microsoftstream.com/video/2c1bfd62-1cd8-4d9e-b787-6e45fe38c056)|
+|**E**|**Friday, 25/11**|IOE Bedford Way (20), Room 784, [**Map**](http://www.ucl.ac.uk/maps/ioe); [**Video**](https://web.microsoftstream.com/video/250b7d02-6cef-4be0-901d-96bb2b9177c4)|
+|**F**|**Wednesday, 23/11**|Birkbeck Gordon Sq (43), Room B06, [**Map**](https://www.google.com/maps/dir/UCL+Main+Campus,+Gower+St,+London+WC1E+6AE/London,+Gordon+Square,+School+of+Arts,+Birkbeck+College邮政编码:+WC1H+0PD/@51.5250275,-0.1380924,17z/data=!4m14!4m13!1m5!1m1!1s0x48761b2f42906f4d:0xe2bdd108bab11257!2m2!1d-0.1344218!2d51.5244928!1m5!1m1!1s0x48761b9264ab4f15:0x237694b60343c106!2m2!1d-0.1303771!2d51.5246366!3e2); [**Video**](https://web.microsoftstream.com/video/2c1bfd62-1cd8-4d9e-b787-6e45fe38c056)|
+|**G**|**Wednesday, 23/11**|North-West Wing, Room G17, [**Map**](http://www.ucl.ac.uk/maps/north-west-wing-building); [**Video**](https://web.microsoftstream.com/video/3798f76a-b99e-4ded-aadc-a4034a931164)|
+|**H**|**Wednesday, 23/11**|Birkbeck Gordon Sq (43), Room 122, [**Map**](https://www.google.com/maps/dir/UCL+Main+Campus,+Gower+St,+London+WC1E+6AE/London,+Gordon+Square,+School+of+Arts,+Birkbeck+College邮政编码:+WC1H+0PD/@51.5250275,-0.1380924,17z/data=!4m14!4m13!1m5!1m1!1s0x48761b2f42906f4d:0xe2bdd108bab11257!2m2!1d-0.1344218!2d51.5244928!1m5!1m1!1s0x48761b9264ab4f15:0x237694b60343c106!2m2!1d-0.1303771!2d51.5246366!3e2); [**Video**](https://web.microsoftstream.com/video/5c8d2dc0-11c4-4935-ac77-f4446be34ec6)|
+|**I**|**Wednesday, 23/11**|IOE Bedford Way (20), Room 784, [**Map**](http://www.ucl.ac.uk/maps/ioe); [**Video**](https://web.microsoftstream.com/video/250b7d02-6cef-4be0-901d-96bb2b9177c4)|
+
+<div class="note">
+**IMPORTANT NOTE**: Please bring your own laptops with you to the computer practicals. If you do not own a laptop, or not in possession of one, you can use **UCL Laptop Loan services** [**[CLICK HERE]**](https://www.ucl.ac.uk/library/using-library/ucl-laptop-loans-students).  
+</div>
+
+## Self-guided tutorials {-}
+
+You have been given early access to content. You are welcome to go through the self-guided tutorials presented on this website at your own pace before the workshop. The teaching materials have been designed to be accessible to anyone who has never used the online platforms: **ArcGIS Maps** or **ArcGIS Storymaps**. The tutorials are very prescriptive with instructions, and these instructions are supported with guided videos.
+
+The workshop is split into **two** main sections: 
+
+1. Creating an interactive map atlas using the **ArcGIS Map** application
+2. Creating a StoryMap in **ArcGIS StoryMap** application
+
+The whole point these tutorials are to provide you guidance on how you can make you own interactive maps and storymap application with you own data collected from Barcelona, or London. 
+
+<div class="note">
+**IMPORTANT NOTE**: You must create an altas and StoryMap, which must be submitted as a link and series of screenshots stitched to your diary. It worth 5.0% of the assessment. 
+</div>
+
+## Questions & Discusson Forum on Moodle {-}
+
+On **Moodle** you can use the **Forum: Questions and Discussion** platform to post general questions about the content on this webpage, or for posting problems on technical issues you have encountered during your self-guided study. Myself, or one of the PGTA will respond accordingly with solutions. Students are welcome to engage and support each other in-person and/or through this forum during this self-study time.  
