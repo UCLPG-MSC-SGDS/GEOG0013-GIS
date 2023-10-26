@@ -2,8 +2,8 @@ book_filename: "GEOG0013: GIF1"
 rmd_files:
 - index.rmd
 - 01-Fieldwork.Rmd
-- 02-Workshop.Rmd
-- 03-Login_ArcGIS_Online.Rmd
+# 02-Workshop.Rmd
+# 03-Login_ArcGIS_Online.Rmd
 
 language:
   ui:

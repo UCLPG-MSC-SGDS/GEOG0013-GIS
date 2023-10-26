@@ -81,17 +81,22 @@ knitr::include_graphics('images/general/preparation/5_Spreadsheet.png')
 </div>
 
 <div class="note">
-**IMPORTANT NOTE:** You can compile the data in the comfort of your hotel or when you are back in London. Just make you don't lose all your hard work!  
+**IMPORTANT NOTE:** You can compile the data in the comfort of your hotel or when you are back in London. Just make sure you don't lose all your hard work!  
 </div>
 
 ### [3] Uploading your shared data to Moodle {-}
 
-On the course Moodle page, a forum will be opened for members of each group to upload:
+On the course Moodle page, a forum will be opened for members of each group to upload the following:
 
-1. The Strava route data (as a .gpx file)
-2. The .csv file containing all site observations and their coordinates. Uploading this data to Moodle will ensure everyone from the group can get access to it during and after the practical class.
+1. The shared Strava route data (as a .gpx file)
+2. The shared .csv file containing all site observations and their coordinates. Uploading this data to Moodle will ensure everyone from the group can get access to it during and after the practical class.
 
-When posting to Moodle, please give your file names informative titles that close team members can recognise the files (for instance Group1_route.gpx etc.). Please this no later than **11:59pm on Tuesday, November 21st 2022** on the week we are having our GIS Workshop. Remember that if the two files are not uploaded to Moodle before the practical class it will not be possible for everyone in the group to complete their work.
+When posting to Moodle, please give your file names with informative titles so that close team members can recognize the files (for instance Group1_route.gpx etc.). Please share this no later than **11:59pm on Tuesday, November 14th 2023** on the week we are having our GIS Workshop. Remember that if the two files are not uploaded to Moodle before the practical class it will not be possible for everyone in the group to complete their work.
 
-Videos, notes and photos should be shared among team members via Whatsapp groups.
+
+### [4] Sharing your videos, pictures and notes in Whatsapp Groups {-}
+
+Lastly, your videos, notes and photos etc., should be shared among team members via Whatsapp groups. I think this is probably the easiest way. Also, you can use the bar code on your Whatsapp application to connect/sync with your PC directly to make transferring files from your phone to PC easy. 
+
+Alright folks, have a great time down at Barcelona. [ENJOY!](https://www.youtube.com/watch?v=7icIbZYvEtk)
 

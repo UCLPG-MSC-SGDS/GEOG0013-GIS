@@ -1,5 +1,5 @@
 ---
-title: "GEOG0013: Geography in the Field 1 (GIF1) 2022/23"
+title: "GEOG0013: Geography in the Field 1 (GIF1) 2023/24"
 site: bookdown::bookdown_site
 output: bookdown::gitbook
 documentclass: book
@@ -25,7 +25,7 @@ Welcome to **GIF1's** **Introduction to GIS**. This resource focuses on the them
 This resource is split into **two** parts:
 
 - **Part 1** of this resource contains the necessary self-guided training materials (i.e., guidance notes and demonstration videos) for using the smartphone applications such as **Google Earth APP** and **Strava** for collecting the your data in the field in London and Barcelona.
-- **Part 2** contains the information needed to developing your own **Story Maps** using an online platform called **ArcGIS Online**. You will need the data collected from the activities in London and Barcelona field trips to complete the exercise and benefit from the Workshop which will be hosted on **Wednesday 23rd November**, and **Friday 25th November**. The learning content for **Part 2** will be released a week ahead of these dates.
+- **Part 2** contains the information needed to developing your own **Story Maps** using an online platform called **ArcGIS Online**. You will need the data collected from the activities in London and Barcelona field trips to complete the exercise and benefit from the Workshop which will be hosted on **Wednesday 15th November**, and **Friday 17th November**. The learning content for Part 2 will be released a week ahead of these dates.
 
 ## Contact Details {-}
 
