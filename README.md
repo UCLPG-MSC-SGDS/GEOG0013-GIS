@@ -20,4 +20,4 @@ This work is licensed under a
 [uni]: https://www.ucl.ac.uk
 [dept]: https://www.geog.ucl.ac.uk
 
-Version 2022/23 | Last updated: 21/10/2022 06:34am
+Version 2023/24 | Last updated: 06/11/2023 07:00pm
