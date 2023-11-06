@@ -1,6 +1,6 @@
 # GEOG0013: Geography in the Field 1 (GIF1)
 
-This GitHub repository creates the workshop content for Introduction to Statistics for the module [GEOG0013 Geography in the Field 1 (GIF1) (2023/24)][course] at the [University College London][uni]'s [Department of Geography][dept]. It contains the tutorials as follows:
+This GitHub repository creates the workshop content for Introduction to GIS and Mapping in ArcGIS Online (i.e., Map and Story Map application) for the module [GEOG0013 Geography in the Field 1 (GIF1) (2023/24)][course] at the [University College London][uni]'s [Department of Geography][dept]. It contains the tutorials as follows:
 
 Part 1: Data Collection for Field Trip <br/> Part 2: GIS Workshop
 
