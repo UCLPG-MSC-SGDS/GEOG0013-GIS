@@ -1,0 +1,9 @@
+# Section 3: Assignment {-}
+
+Please download **ALL** documentation and read this section carefully.
+
+1. GIS Story Map for the data analysis project is an independent coursework which needs to complete before **12:00pm on Friday 8th December, 2023**. This assignment accounts for 10% of your GEOG0013 grade and will be marked using the same grading matrix used for the other worksheet tasks. 
+
+2. Please [**DOWNLOAD**](https://github.com/UCLPG-MSC-SGDS/GEOG0013-GIS/raw/main/Documentation/GEOG0013%20GIS%20&%20Mapping%20Assignment%20Guidance%20Sheet.docx) the **GEOG0013 GIS & Mapping Assignment Guidance Sheet** for this coursework. For extra guidance and instruction on assignment beyond this online handbook, you will find such information contained in this 2-page documentation.
+
+3. Please [**DOWNLOAD**](https://github.com/UCLPG-MSC-SGDS/GEOG0013-GIS/raw/main/Documentation/GEOG0013%20Submission%20Cover%20Sheet.docx) the **GEOG0013 Submission Cover Sheet**. Use this document to include your **candidate ID**, **group number** and **URL to Story Map**. Make sure to submit this as a Word (.doc or .docx) document through Moodle's Turnitin before **12:00pm on Friday 8th December, 2023**. 
