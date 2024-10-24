@@ -2,9 +2,9 @@
 
 This GitHub repository creates the workshop content for Introduction to GIS and ArcGIS StoryMaps for the module [GEOG0013 Geography in the Field 1 (GIF1)][course] at the [University College London][uni]'s [Department of Geography][dept]. It contains the tutorials as follows:
 
-Part 1: Data Collection for Field Trip <br/> Part 2: Arc
+Part 1: Data Collection for Field Trip <br/> Part 2: ArcGIS Online StoryMap Workshop
 
-It can be found here: https://uclpg-msc-sgds.github.io/GEOG0013/
+It can be found here: https://uclpg-msc-sgds.github.io/GEOG0013-GIS/
 
 Shield: [![CC BY-SA 4.0][cc-by-sa-shield]][cc-by-sa]
 
