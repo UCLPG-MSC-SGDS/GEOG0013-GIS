@@ -6,16 +6,16 @@ knitr::include_graphics('images/general/Barcelona_fieldtrip.png')
 
 ## Preparation for the field trip {-}
 
-Please make sure to have read carefully through the [**BCN-Urban Project Worksheet**](https://github.com/UCLPG-MSC-SGDS/GEOG0013-GIS/raw/main/Guidance_notes/BCN-Urban_projects_Worksheet_2022.pdf) as it contains the key objectives of the field activity. For the Barcelona (and London) Urban Project, you will need to bring your **worksheet**, **field notebook (i.e., diary)** and **smartphone**. Note that the section here contains some guidance notes for fulfilling some of the objectives relating to the plotting of routes and recording of geo-tags with smartphones.
+Please make sure to go through the [**BCN-Urban Project Worksheet**](https://github.com/UCLPG-MSC-SGDS/GEOG0013-GIS/raw/main/Guidance_notes/BCN-Urban_projects_Worksheet_2022.pdf) as it contains the key objectives of the field activity. For the Barcelona (or London) Urban Project, you will need to bring your **worksheet**, **field notebook (i.e., diary)** and **smartphone**. 
 
-Here are some following points to do before departing:
+The section here contains some guidance notes for fulfilling the objectives related to tracking your routes and geo-tagging with the smartphone. Here's a things-to-do list before going out on to the field:
 
-1. Install **Strava** onto at least one group member’s smartphone – this is for route data collection.
-2. Install **Google Earth** onto at least one group member’s smartphone - this is for recording coordinates for the point observations you want to record in accordance to the selected theme (e.g. street vendor locations, graffiti, Catalan flags, cyclists, and other locations that pique your interest).
+1. Install **Strava** onto at least one group member’s smartphone – this is for the **route data collection**.
+2. Install **Google Earth** onto at least one group member’s smartphone - this is for recording the **GPS coordinates** for the point observations in accordance with your theme (e.g. street vendor locations, graffiti, Catalan flags, cyclists, and other locations that may pique your interest).
 3. Try the apps out for yourself for familiarity.
 
 <div class="note">
-**IMPORTANT NOTE:** You will need the two apps to collect your human geography digital data in Barcelona and London. Please make note that the collection of data is a team effort. The more people in the group who install these apps, as well as being engaged with data collection, the better, and the less chance there is of something going wrong in the field.
+**IMPORTANT NOTE:** You will need the two apps to collect your data in Barcelona or London. Please make note that the collection of data is a team effort. The more people in the group who install these apps, as well as being engaged with the data collection, the better, and the less chance of something going wrong in the field.
 </div>
 
 ## Training materials for Google Earth & Strava app {-}
@@ -24,13 +24,18 @@ The table below contains all the information needed to get you started with usin
 
 |**Guidance**|**Google Earth App**|**Strava App**|
 |:------------------------------------------------------------------------- |:------------------------------ |:------------------------------   |
-|**[1] How to install apps on smartphone**| [**Notes**](https://github.com/UCLPG-MSC-SGDS/GEOG0013-GIS/raw/main/Guidance_notes/How%20to%20install%20Google%20Earth%20App.pdf), [**Video**](https://web.microsoftstream.com/video/a3fe1790-15b2-450d-8e2f-0b6656aafd6c) | [**Notes**](https://github.com/UCLPG-MSC-SGDS/GEOG0013-GIS/raw/main/Guidance_notes/How%20to%20install%20Strava%20App.pdf), [**Video**](https://web.microsoftstream.com/video/a2822f80-c53c-4a10-b1d5-7622ac954373) |
-|**[2] How to collect point or route data**| [**Notes**](https://github.com/UCLPG-MSC-SGDS/GEOG0013-GIS/raw/main/Guidance_notes/How%20to%20collect%20observations%20with%20Google%20Earth%20App.pdf), [**Video**](https://web.microsoftstream.com/video/8bb58f97-b403-485b-805d-4e94a068627e) | [**Notes**](https://github.com/UCLPG-MSC-SGDS/GEOG0013-GIS/raw/main/Guidance_notes/How%20to%20collect%20route%20data%20with%20Strava%20App.pdf), [**Video**](https://web.microsoftstream.com/video/babcefc2-2bc3-4ac5-a3a3-4444b5f8a841) |
+|**[1] How to install apps on smartphone**| [**Notes**](https://github.com/UCLPG-MSC-SGDS/GEOG0013-GIS/raw/main/Guidance_notes/How%20to%20install%20Google%20Earth%20App.pdf), [**Video**](https://youtu.be/sjAugO09pxo) | [**Notes**](https://github.com/UCLPG-MSC-SGDS/GEOG0013-GIS/raw/main/Guidance_notes/How%20to%20install%20Strava%20App.pdf), [**Video**](https://youtu.be/HTM9mFHUNk4) |
+|**[2] How to collect point or route data**| [**Notes**](https://github.com/UCLPG-MSC-SGDS/GEOG0013-GIS/raw/main/Guidance_notes/How%20to%20collect%20observations%20with%20Google%20Earth%20App.pdf), [**Video**](https://youtu.be/pU7zBMlxW08) | [**Notes**](https://github.com/UCLPG-MSC-SGDS/GEOG0013-GIS/raw/main/Guidance_notes/How%20to%20collect%20route%20data%20with%20Strava%20App.pdf), [**Video**](https://youtu.be/7yR3VqfjC4E) |
+
 
 <div class="note">
-**TIP**: When geo-tagging points of interest, and taking associated notes in diaries, pictures, videos, or audio footage. There has to be a link between the points and collected dataset so you know what information corresponds to each other. We recommend that you apply some reference number for the location with coordinates you geo-tagged (e.g., "site 1" or "S1" and the next will be "site 2" or "S2" etc.,) and then annotate you notes, pictures, videos or audio footage with the same reference number so you know which data corresponds with each other. 
+**NOTE 1 on installation for iPhone users**: At the time of making these tutorials - the content creator was a proud owner of a **Samsung Android** phone and did not have access to an **iPhone**. So the steps for installation and steps were designed and demonstrated for **Android** phones. Therefore, iPhone - you can install the applications accordingly, but the steps my vary - but don't worry - the steps and set-up on how to do things in an **iPhone** are highly intuitive and akin to that of an **Android** phone.   
+</div>
 
-You can do this with you phones through screenshooting and applying text to it. Here is a crude example (see image below):
+<div class="note">
+**NOTE 2 on data collection for pictures**: When geo-tagging points of interest, and penning the associated notes into diaries, pictures, videos, or audio footage. There has to be a link between the points and collected dataset so you know what information corresponds to each other. We recommend that you apply some reference number for the location with coordinates you geo-tagged (e.g., "site 1" or "S1" and the next will be "site 2" or "S2" etc.,) and then annotate you notes, pictures, videos or audio footage with the same reference number so you know which data corresponds with each other. 
+
+You can do this with your phones through screenshots and applying some text to it. Here is a crude example (see image below):
 
 **Revisiting the location in London where the 1854 Cholera epidemic was pronounced**
 
@@ -43,7 +48,7 @@ knitr::include_graphics('images/general/Preparation/10_Linkage.png')
 
 ### [1] Downloading your route data {-}
 
-Once you have finished using Strava, and saving the routes. Downloading your route data from Strava is simple. Here are the steps:
+Once you have finished using Strava, and saved the routes. Downloading your route data from Strava is simple. Here are the steps:
 
 1. Go to [**https://www.strava.com**](https://www.strava.com) and log into your user account (i.e., the one you created earlier on when you installed the app)
 
@@ -64,13 +69,11 @@ knitr::include_graphics('images/general/Preparation/3_Exporting_gpx.png')
 
 ### [2] Compiling you geo-tagged data into a spreadsheet {-}
 
-You should compile your geo-tagged data into a spreadsheet and save it as comma separated value format (.csv). You are highly encouraged you collaborate to do this chore as a group:
-
-Here are the steps:
+You should compile your geo-tagged data into a spreadsheet and save it as a comma separated value format (.csv). We highly encouraged you work as a group in compiling your dataset together. Here are the steps:
 
 1.	Create a new spreadsheet in Excel. Create three columns marked `**siteID**’, ‘**latitude**’ and ‘**longitude**’. 
-2.	Input details of the points of interest you recorded in Barcelona into the spreadsheet. To do this you will need to look at your field diary and also any screenshots you took. Make sure that the lat/long coordinates for each site are accurately recorded. Any qualitative information about each site you recorded (e.g. its type, other observations) can also be recorded in a fourth column if you want.
-3.	Your dataset should end up looking like the screenshot below. Remember that we expect each group to have at least 30 site observations. Save your work as a .csv file.
+2.	Input details of the points of interest you recorded in Barcelona/London into a spreadsheet. To do this you will need to look at your field diary and also any screenshots you took. Make sure that the lat/long coordinates for each site are accurately recorded. Any qualitative information about each site you recorded (e.g. its type, other observations) can also be recorded in a fourth column if you want.
+3.	Your dataset should end up looking like the screenshot below. Remember that we expect each group to have at least 20 site observations (- the more point, the more interesting your map will look!). Save your work as a .csv file.
 
 ```{r echo=FALSE, out.width = "100%", fig.align='center', cache=TRUE,}
 knitr::include_graphics('images/general/preparation/5_Spreadsheet.png') 
@@ -91,12 +94,11 @@ On the course Moodle page, a forum will be opened for members of each group to u
 1. The shared Strava route data (as a .gpx file)
 2. The shared .csv file containing all site observations and their coordinates. Uploading this data to Moodle will ensure everyone from the group can get access to it during and after the practical class.
 
-When posting to Moodle, please give your file names with informative titles so that close team members can recognize the files (for instance Group1_route.gpx etc.). Please share this no later than **11:59pm on Tuesday, November 14th 2023** on the week we are having our GIS Workshop. Remember that if the two files are not uploaded to Moodle before the practical class it will not be possible for everyone in the group to complete their work.
+When posting to Moodle, please give your file names with informative titles so that close team members can recognize the files (for instance Group1_route.gpx etc.). Please share this no later than **11:59pm on Tuesday, November 12th 2024** on the week we are having our GIS Workshop. Remember that if the two files are not uploaded to Moodle before the practical class it will not be possible for everyone in the group to complete their work.
 
 
 ### [4] Sharing your videos, pictures and notes in Whatsapp Groups {-}
 
 Lastly, your videos, notes and photos etc., should be shared among team members via Whatsapp groups. I think this is probably the easiest way. Also, you can use the bar code on your Whatsapp application to connect/sync with your PC directly to make transferring files from your phone to PC easy. 
 
-Alright folks, have a great time down at Barcelona. [ENJOY!](https://www.youtube.com/watch?v=7icIbZYvEtk)
-
+Alright folks, have a great time down at Barcelona, or London (if you are staying...). In the spirit of the Urban-GIS Project and cities: Barcelona and London, the former being vibrant place, while the other being a tad bit gloomy. I want you folks to enjoy the following music – [**“Barcelona”**](https://youtu.be/7icIbZYvEtk?si=9bj19cfDH5905Wui) and [**“There is no please like London”**](https://youtu.be/xamDprXBtBg?si=TYmHXOQ7S1ZDwx9H).    

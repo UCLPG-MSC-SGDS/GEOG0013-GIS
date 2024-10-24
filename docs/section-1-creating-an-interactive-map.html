@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Section 1: Creating an interactive map | GEOG0013: Geography in the Field 1 (GIF1) 2024/25</title>
+  <meta name="description" content="GEOG0013: Geography in the Field 1 (GIF1)" />
+  <meta name="generator" content="bookdown 0.38 and GitBook 2.6.7" />
+
+  <meta property="og:title" content="Section 1: Creating an interactive map | GEOG0013: Geography in the Field 1 (GIF1) 2024/25" />
+  <meta property="og:type" content="book" />
+  
+  <meta property="og:description" content="GEOG0013: Geography in the Field 1 (GIF1)" />
+  <meta name="github-repo" content="UCLPG-MSC-SGDS/GEOG0013" />
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Section 1: Creating an interactive map | GEOG0013: Geography in the Field 1 (GIF1) 2024/25" />
+  
+  <meta name="twitter:description" content="GEOG0013: Geography in the Field 1 (GIF1)" />
+  
+
+
+
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  
+  
+<link rel="prev" href="part-2-gis-workshop.html"/>
+<link rel="next" href="section-2-creating-a-storymaps-application.html"/>
+<script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-clipboard.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+<link href="libs/anchor-sections-1.1.0/anchor-sections.css" rel="stylesheet" />
+<link href="libs/anchor-sections-1.1.0/anchor-sections-hash.css" rel="stylesheet" />
+<script src="libs/anchor-sections-1.1.0/anchor-sections.js"></script>
+<link href="libs/vembedr-0.1.5/css/vembedr.css" rel="stylesheet" />
+
+
+
+<style type="text/css">
+  
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+</style>
+
+<link rel="stylesheet" href="assets/custom.css" type="text/css" />
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li class="toc-logo">
+<a href="https://www.ucl.ac.uk/module-catalogue/modules/GEOG0013"><img src="images/general/ucl_logo.png">
+</a></li>
+
+<li class="divider"></li>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>Welcome to Introduction to GIS</a>
+<ul>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html#structure"><i class="fa fa-check"></i>Structure</a></li>
+</ul></li>
+<li class="chapter" data-level="" data-path="part-1-data-collection-for-field-trip.html"><a href="part-1-data-collection-for-field-trip.html"><i class="fa fa-check"></i>Part 1: Data Collection for Field Trip</a>
+<ul>
+<li class="chapter" data-level="" data-path="part-1-data-collection-for-field-trip.html"><a href="part-1-data-collection-for-field-trip.html#preparation-for-the-field-trip"><i class="fa fa-check"></i>Preparation for the field trip</a></li>
+<li class="chapter" data-level="" data-path="part-1-data-collection-for-field-trip.html"><a href="part-1-data-collection-for-field-trip.html#training-materials-for-google-earth-strava-app"><i class="fa fa-check"></i>Training materials for Google Earth &amp; Strava app</a></li>
+<li class="chapter" data-level="" data-path="part-1-data-collection-for-field-trip.html"><a href="part-1-data-collection-for-field-trip.html#what-to-do-next-with-the-collected-data"><i class="fa fa-check"></i>What to do next with the collected data?</a>
+<ul>
+<li class="chapter" data-level="" data-path="part-1-data-collection-for-field-trip.html"><a href="part-1-data-collection-for-field-trip.html#downloading-your-route-data"><i class="fa fa-check"></i>[1] Downloading your route data</a></li>
+<li class="chapter" data-level="" data-path="part-1-data-collection-for-field-trip.html"><a href="part-1-data-collection-for-field-trip.html#compiling-you-geo-tagged-data-into-a-spreadsheet"><i class="fa fa-check"></i>[2] Compiling you geo-tagged data into a spreadsheet</a></li>
+<li class="chapter" data-level="" data-path="part-1-data-collection-for-field-trip.html"><a href="part-1-data-collection-for-field-trip.html#uploading-your-shared-data-to-moodle"><i class="fa fa-check"></i>[3] Uploading your shared data to Moodle</a></li>
+<li class="chapter" data-level="" data-path="part-1-data-collection-for-field-trip.html"><a href="part-1-data-collection-for-field-trip.html#sharing-your-videos-pictures-and-notes-in-whatsapp-groups"><i class="fa fa-check"></i>[4] Sharing your videos, pictures and notes in Whatsapp Groups</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="" data-path="part-2-gis-workshop.html"><a href="part-2-gis-workshop.html"><i class="fa fa-check"></i>Part 2: GIS Workshop</a>
+<ul>
+<li class="chapter" data-level="" data-path="part-2-gis-workshop.html"><a href="part-2-gis-workshop.html#timetable-group-allocation"><i class="fa fa-check"></i>Timetable &amp; Group Allocation</a></li>
+<li class="chapter" data-level="" data-path="part-2-gis-workshop.html"><a href="part-2-gis-workshop.html#self-guided-tutorials"><i class="fa fa-check"></i>Self-guided tutorials</a></li>
+<li class="chapter" data-level="" data-path="part-2-gis-workshop.html"><a href="part-2-gis-workshop.html#questions-discusson-forum-on-moodle"><i class="fa fa-check"></i>Questions &amp; Discusson Forum on Moodle</a></li>
+</ul></li>
+<li class="chapter" data-level="" data-path="section-1-creating-an-interactive-map.html"><a href="section-1-creating-an-interactive-map.html"><i class="fa fa-check"></i>Section 1: Creating an interactive map</a>
+<ul>
+<li class="chapter" data-level="" data-path="section-1-creating-an-interactive-map.html"><a href="section-1-creating-an-interactive-map.html#download-the-required-datasets"><i class="fa fa-check"></i>Download the required datasets</a></li>
+<li class="chapter" data-level="" data-path="section-1-creating-an-interactive-map.html"><a href="section-1-creating-an-interactive-map.html#how-to-log-into-arcgis-online"><i class="fa fa-check"></i>How to log into ArcGIS Online</a></li>
+<li class="chapter" data-level="" data-path="section-1-creating-an-interactive-map.html"><a href="section-1-creating-an-interactive-map.html#starting-a-new-arcgis-map-project"><i class="fa fa-check"></i>Starting a new ArcGIS Map project</a></li>
+<li class="chapter" data-level="" data-path="section-1-creating-an-interactive-map.html"><a href="section-1-creating-an-interactive-map.html#how-to-import-spatial-data-into-your-new-arcgis-map-project"><i class="fa fa-check"></i>How to import spatial data into your new ArcGIS Map project</a></li>
+<li class="chapter" data-level="" data-path="section-1-creating-an-interactive-map.html"><a href="section-1-creating-an-interactive-map.html#how-to-import-and-configure-pop-ups-images-for-point-of-interest"><i class="fa fa-check"></i>How to import and configure pop-ups images for point of interest</a></li>
+</ul></li>
+<li class="chapter" data-level="" data-path="section-2-creating-a-storymaps-application.html"><a href="section-2-creating-a-storymaps-application.html"><i class="fa fa-check"></i>Section 2: Creating a StoryMaps application</a></li>
+<li class="chapter" data-level="" data-path="section-3-assignment.html"><a href="section-3-assignment.html"><i class="fa fa-check"></i>Section 3: Assignment</a></li>
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">GEOG0013: Geography in the Field 1 (GIF1) 2024/25</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="section-1-creating-an-interactive-map" class="section level1 unnumbered hasAnchor">
+<h1>Section 1: Creating an interactive map<a href="section-1-creating-an-interactive-map.html#section-1-creating-an-interactive-map" class="anchor-section" aria-label="Anchor link to header"></a></h1>
+<div id="download-the-required-datasets" class="section level2 unnumbered hasAnchor">
+<h2>Download the required datasets<a href="section-1-creating-an-interactive-map.html#download-the-required-datasets" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>We are going to recreate the following story map titled: <a href="https://arcg.is/5SaXT"><strong>“Short Revisit to the Cholera Outbreak in Soho, London (1854)”</strong></a>. In order to recreate it, please download the required data:</p>
+<p><a href="https://github.com/UCLPG-MSC-SGDS/GEOG0013-GIS/raw/main/Data.zip"><strong>[DOWNLOAD DATA]</strong></a></p>
+<p>The shared folder contains the following data:</p>
+<table>
+<colgroup>
+<col width="16%" />
+<col width="84%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th align="left"><strong>Data type</strong></th>
+<th align="left"><strong>Description</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">CSV</td>
+<td align="left">Houses with Cholera Deaths</td>
+</tr>
+<tr class="even">
+<td align="left">CSV</td>
+<td align="left">Houses with no Cholera Deaths</td>
+</tr>
+<tr class="odd">
+<td align="left">CSV</td>
+<td align="left">Pump locations</td>
+</tr>
+<tr class="even">
+<td align="left">GPX</td>
+<td align="left">Tracked route (Strava)</td>
+</tr>
+<tr class="odd">
+<td align="left">Icons</td>
+<td align="left">3 images</td>
+</tr>
+<tr class="even">
+<td align="left">Pop-ups</td>
+<td align="left">4 images</td>
+</tr>
+<tr class="odd">
+<td align="left">SHP</td>
+<td align="left">Zipped compressed folder containing shapefile of the area</td>
+</tr>
+<tr class="even">
+<td align="left">DOCX</td>
+<td align="left">A script to make your life less painful…</td>
+</tr>
+</tbody>
+</table>
+<p>Let us go through these dataset are:</p>
+<p><strong>Video [Explanation]: Datasets (Length: 11:57 mins)</strong></p>
+<div class="vembedr" align="center">
+<div>
+<iframe src="https://web.microsoftstream.com/embed/video/43d0ddc3-3242-493e-b01f-f34a5c0c8b71?autoplay=false&amp;showinfo=true" width="711" height="400" style="border:none;" data-external="1"></iframe>
+</div>
+</div>
+<p>If the video does not play within this section, then try playing it from Microsoft Streams - you should be able to view it there using this <a href="https://web.microsoftstream.com/video/43d0ddc3-3242-493e-b01f-f34a5c0c8b71"><strong>LINK</strong></a></p>
+<div class="note">
+<p><strong>Important Notes:</strong> Access to Microsoft Steams may require use of your UCL institutional login details</p>
+</div>
+<p>Alright, let’s begin.</p>
+</div>
+<div id="how-to-log-into-arcgis-online" class="section level2 unnumbered hasAnchor">
+<h2>How to log into ArcGIS Online<a href="section-1-creating-an-interactive-map.html#how-to-log-into-arcgis-online" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>UCL has a licence for <strong>ArcGIS Online</strong>. You can easily access and start using it via main website at <a href="https://www.arcgis.com/"><strong>https://www.arcgis.com/</strong></a>. You will need to use your own UCL institutional login to be granted access to <strong>ArcGIS Online</strong>. Note that the process of logging into <strong>ArcGIS Online</strong> is same way when you are logging into your UCL email via <strong>MS Outlook</strong>.</p>
+<p><strong>Video [Tutorials]: Logging into ArcGIS Online (Length: 05:32 mins)</strong></p>
+<div class="vembedr" align="center">
+<div>
+<iframe src="https://web.microsoftstream.com/embed/video/9b4b5bf9-75ba-441e-987e-2f93403286f7?autoplay=false&amp;showinfo=true" width="711" height="400" style="border:none;" data-external="1"></iframe>
+</div>
+</div>
+<p>If the video does not play within this section, then try playing it from Microsoft Streams - you should be able to view it there using this <a href="https://web.microsoftstream.com/video/9b4b5bf9-75ba-441e-987e-2f93403286f7"><strong>LINK</strong></a></p>
+<div class="note">
+<p><strong>Important Notes:</strong> Access to Microsoft Steams may require use of your UCL institutional login details</p>
+</div>
+<p>Here are the steps:</p>
+<ol style="list-style-type: decimal">
+<li>Go on <a href="https://www.arcgis.com/"><strong>https://www.arcgis.com/</strong></a></li>
+<li>Click on the <strong>Sign In</strong> button</li>
+<li>Select the section <strong>“Your ArcGIS organization’s URL”</strong></li>
+<li>Under the <strong>“Your ArcGIS organization’s URL”</strong> section, type <strong>UCLondon</strong> and click the <strong>Continue</strong> button.</li>
+<li>You should see a new button that says <strong>UCL SSO</strong>. Click on the <strong>UCL SSO</strong> button.</li>
+<li>Here, you will be prompted to type your UCL email and its corresponding password credentials. Type these information to finally be granted access.</li>
+</ol>
+</div>
+<div id="starting-a-new-arcgis-map-project" class="section level2 unnumbered hasAnchor">
+<h2>Starting a new ArcGIS Map project<a href="section-1-creating-an-interactive-map.html#starting-a-new-arcgis-map-project" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p><strong>Video [Tutorials]: Starting a new map project in ArcGIS Online &amp; set-up (Length: 04:46 mins)</strong></p>
+<div class="vembedr" align="center">
+<div>
+<iframe src="https://web.microsoftstream.com/embed/video/05ba4760-d042-4e14-a3ed-69973e8ec395?autoplay=false&amp;showinfo=true" width="711" height="400" style="border:none;" data-external="1"></iframe>
+</div>
+</div>
+<p>If the video does not play within this section, then try playing it from Microsoft Streams - you should be able to view it there using this <a href="https://web.microsoftstream.com/video/05ba4760-d042-4e14-a3ed-69973e8ec395"><strong>LINK</strong></a></p>
+<div class="note">
+<p><strong>Important Notes:</strong> Access to Microsoft Steams may require use of your UCL institutional login details</p>
+</div>
+<p>We will need to start a new project to build our interactive maps in ArcGIS online. Before we do so… here are the steps for getting the appropriate set-up. Please do this set-up so as to make navigation through ArcGIS Map Viewer a lot easier and less painful:</p>
+<ol style="list-style-type: decimal">
+<li>Head to your profile settings - you should see your user name (e.g., <a href="mailto:ucfxxxx@ucl.ac.uk" class="email">ucfxxxx@ucl.ac.uk</a>_UCLondon) at the top right corner - click this section.</li>
+<li>Click <strong>My settings</strong></li>
+<li>Scroll down to the part titled <strong>Primary map viewer</strong></li>
+<li>Select <strong>Map Viewer Classic</strong> (avoid selecting <strong>Map Viewer</strong> at all cost)</li>
+<li>Now, select <strong>Map</strong> located at the top menu bar to open a new project.</li>
+</ol>
+</div>
+<div id="how-to-import-spatial-data-into-your-new-arcgis-map-project" class="section level2 unnumbered hasAnchor">
+<h2>How to import spatial data into your new ArcGIS Map project<a href="section-1-creating-an-interactive-map.html#how-to-import-spatial-data-into-your-new-arcgis-map-project" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Here, we are going to start importing all our spatial data sets into ArcGIS Map. We will have to do this one file at a time. Let us import the data sets in the following order:</p>
+<ul>
+<li><code>Houses_with_Cholera_deaths.csv</code></li>
+<li><code>Houses_with_no_Cholera_deaths.csv</code></li>
+<li><code>Pump_Locations.csv</code></li>
+<li><code>Routes.gpx</code></li>
+<li><code>Area.zip</code></li>
+</ul>
+<p><strong>Video [Tutorials]: How to import spatial data and apply various customisations and symbologies (Length: 29:18 mins)</strong></p>
+<div class="vembedr" align="center">
+<div>
+<iframe src="https://web.microsoftstream.com/embed/video/75855486-d31b-431e-a5d2-549a86e9a0f8?autoplay=false&amp;showinfo=true" width="711" height="400" style="border:none;" data-external="1"></iframe>
+</div>
+</div>
+<p>If the video does not play within this section, then try playing it from Microsoft Streams - you should be able to view it there using this <a href="https://web.microsoftstream.com/video/75855486-d31b-431e-a5d2-549a86e9a0f8"><strong>LINK</strong></a></p>
+<div class="note">
+<p><strong>Important Notes:</strong> Access to Microsoft Steams may require use of your UCL institutional login details</p>
+</div>
+<p>Here are the steps for importing data:</p>
+<ol style="list-style-type: decimal">
+<li>Click on the <strong>+Add</strong> icon at the top of the viewer.</li>
+<li>A drop down menu should appear - select the option <strong>Add Layer from File</strong></li>
+<li>A small window titled <strong>Add Layer from File</strong> will appear. Click on the button <strong>Choose File</strong> and navigate to the folder in your computer to select the first file in above list i.e., <code>Houses_with_Cholera_deaths.csv</code></li>
+<li>Click the button <strong>Upload</strong> to upload the selected file.</li>
+<li>Finally, click on the button <strong>IMPORT LAYER</strong> to load the layer into the map project.</li>
+</ol>
+<p><strong>Customisation of symbologies</strong></p>
+<p>Upon loading the data, it will automatically take the first column (i.e, the house identification number) in the data and plot a proportional dot map which is obviously in incorrect. We want to plot this data as Location with a single symbol - preferably as a red colour to symbolise that these where homes with documented Cholera deaths. We can do the using the following steps:</p>
+<ol style="list-style-type: decimal">
+<li>On the left hand side of the panel, scroll to the section that says: <strong>Location (Single symbol)</strong>. Click <strong>SELECT</strong></li>
+<li>It should remove the erroneous proportional dot map. Let us change the colours accordingly to <strong>Red</strong>. Under <strong>Location (Single symbol)</strong>, click on the button <strong>OPTIONS</strong></li>
+<li>Click on <strong>Symbols</strong></li>
+<li>We can change Shape icons if we wish by selecting the desired <strong>Shape Category</strong>. However, we can leave this as a circle. Lets change the <strong>FILL</strong> colour from <strong>Black</strong> to <strong>Red</strong> so click on <strong>FILL</strong>.</li>
+<li>You will see a colour palette - click on the <strong>Red</strong>.</li>
+<li>Consistency we also want the <strong>OUTLINE</strong> of the circle shape to be <strong>RED</strong> as well. Lets change the <strong>OUTLINE</strong> colour to <strong>Red</strong>. Click on <strong>OUTLINE</strong> and also select <strong>Red</strong> in that colour palette.</li>
+<li>Click <strong>OK</strong> in the small window to confirm colour selection.</li>
+<li>Finally, click <strong>OK</strong> about the bottom, and then click <strong>DONE</strong> for the final confirmation.</li>
+</ol>
+<p><strong>Rinse and repeat</strong></p>
+<p>We can repeat the above steps for importing the point data for <code>Houses_with_no_Cholera_deaths.csv</code> and assign its symbology a <strong>Green</strong> colour. For the <code>Pump_Locations.csv</code> data, we can change the <strong>Shape Category</strong> and select one of the markers under the <strong>Points of Interest</strong> category. We can also apply the label names of the pumps from the <code>Pump_Locations.csv</code> to show using the <strong>Create Labels</strong> option. Watch the video carefully to see how this is done.</p>
+<p>When importing line and polygon data for the <code>Routes.gpx</code> and <code>Area.zip</code>, respectively. It is essentially the same steps as the above. You may choose to make the symbology for the routes data a thin line by reducing its width and render its line style as a dashed line. For the area - you can make its colour fill 100% transparent. We only want to see the borders of the Soho area only. Watch the video carefully to see how these customisation are done.</p>
+</div>
+<div id="how-to-import-and-configure-pop-ups-images-for-point-of-interest" class="section level2 unnumbered hasAnchor">
+<h2>How to import and configure pop-ups images for point of interest<a href="section-1-creating-an-interactive-map.html#how-to-import-and-configure-pop-ups-images-for-point-of-interest" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>We are going to take a look at how we can configure images to pop-up at features considered to be points of interest. But first, we will need to import them into a repository called <strong>Contents</strong>. Let us see how to import image files (<strong>.png</strong> or <strong>.jpeg</strong> etc.,) into my <strong>Contents</strong> in ArcGIS Online.</p>
+<p><strong>Video [Tutorials]: How to import and configure images to pop-up from interactive map (Length: 41:26 mins)</strong></p>
+<div class="vembedr" align="center">
+<div>
+<iframe src="https://web.microsoftstream.com/embed/video/aee33b7f-ed44-4eaa-9b7a-0ea3c947610a?autoplay=false&amp;showinfo=true" width="711" height="400" style="border:none;" data-external="1"></iframe>
+</div>
+</div>
+<p>If the video does not play within this section, then try playing it from Microsoft Streams - you should be able to view it there using this <a href="https://web.microsoftstream.com/video/aee33b7f-ed44-4eaa-9b7a-0ea3c947610a"><strong>LINK</strong></a></p>
+<div class="note">
+<p><strong>Important Notes:</strong> Access to Microsoft Steams may require use of your UCL institutional login details</p>
+</div>
+<p>Here are the following steps:</p>
+<ol style="list-style-type: decimal">
+<li>Click on the button <strong>New item</strong></li>
+<li>A <strong>New item</strong> window should appear. Let us drag and drop the image <code>Pump - interactive map.jpeg</code> into the <strong>Drag and drop your file or choose an option</strong> section</li>
+<li>A window will appear where we can add more information about the photo. Here, we can alter the title by typing <strong>Broad Street Pump [image]</strong>. Click <strong>Next</strong> and the image should be uploaded into your list of <strong>Contents</strong></li>
+<li>Now, make sure to click on the <strong>Share</strong> button. Here, we need to select the <strong>Everyone (public)</strong> option in order to get a <strong>URL</strong> link - this is what we need to configure the pop-ups to work. Without this option selected it would not work!.</li>
+</ol>
+<p>Now, we should see the image stored in our <strong>My Contents</strong> list. We can repeat the above import steps for the remaining images:</p>
+<ul>
+<li><code>Pub - interactive map.jpeg</code></li>
+<li><code>Barbers - interactive map.jpeg</code></li>
+<li><code>Market - interactive map.jpeg</code></li>
+<li><code>Camera icon - interactive map.png</code></li>
+<li><code>Death rate icon - interactive map.png</code></li>
+<li><code>Footprint - interactive map.png</code></li>
+</ul>
+<p>Now, let us add the images to our interactive map as a pop-up feature to points of interest. We are going to start with the adding the <strong>Broad Street Pump [image]</strong>.</p>
+<p>Here are the following steps:</p>
+<ol style="list-style-type: decimal">
+<li>Click on the <strong>Web Map</strong> template we are currently working on i.e., <strong>Demonstration</strong> to continue the creation of interactive map.</li>
+<li>Next, click on the button <strong>Open in Map Viewer Classic</strong> to open it.</li>
+<li>Zoom in very close to the pump icon labelled <strong>Broad Street Pump</strong>. Here, we going add a <strong>Camera icon</strong> image and link whatever details we’ve described for this point of interest.</li>
+<li>Next, click on the <strong>+ADD</strong> button and select the option <strong>Add Map Notes</strong></li>
+<li>An <strong>Add Map Notes</strong> will appear. Here, click the <strong>CREATE</strong> button.</li>
+<li>A list of icons will appear. Select <strong>Stickpin</strong> and hover the point close to the pump icon labelled <strong>Broad Street Pump</strong>, and click to add <strong>Stickpin</strong> point on the map.</li>
+<li>A <strong>Points</strong> window will appear. In the <strong>Title</strong> section, type: <strong>Broad Street Pump</strong></li>
+<li>In the <strong>Description</strong> section, copy and paste the necessary information (see Word Document titled: <strong>Text Script</strong>)</li>
+<li>In a separate tab - go into <strong>My Contents</strong> and select <strong>Broad Street Pump [image]</strong>. Copy the <strong>URL</strong> and paste it in the <strong>URL</strong> sections in the window mentioned in Point 7.</li>
+<li>We are going to alter the symbology of the <strong>Stickpin</strong> with our own image of a <strong>Camera icon</strong>. Here, click on <strong>CHANGE SYMBOL</strong> and select <strong>Use an image</strong></li>
+<li>In a separate tab - go into <strong>My Contents</strong> and select <strong>Camera icon [image]</strong>. Copy the <strong>URL</strong> and paste it in the <strong>URL</strong> sections in the symbology window mentioned in Point 10 and click <strong>+</strong> sign.</li>
+<li>Click on the new <strong>Camera Icon</strong> and set the <strong>Symbol Size</strong> to your preference and click <strong>OK</strong>, and click <strong>CLOSE</strong>.</li>
+<li>Lastly, click on <strong>Edit</strong> to close out of the editing mode.</li>
+</ol>
+<p>If you click on the <strong>Camera Icon</strong>, a pop-up feature with the image and description of the location will appear. Now, we rinse and repeat for the other locations. Watch the video carefully to see how these customisation are done for the remaining images.</p>
+<p>Make the final save to complete the interactive map.</p>
+</div>
+</div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="part-2-gis-workshop.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="section-2-creating-a-storymaps-application.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-clipboard.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": true,
+"facebook": false,
+"twitter": false,
+"linkedin": false,
+"weibo": false,
+"instapaper": false,
+"vk": false,
+"whatsapp": false,
+"all": false
+},
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": "https://github.com/UCLPG-MSC-SGDS/GEOG0013-GIS/edit/main/03-Login_ArcGIS_Online.Rmd",
+"text": "Edit"
+},
+"history": {
+"link": null,
+"text": null
+},
+"view": {
+"link": null,
+"text": null
+},
+"download": null,
+"search": {
+"engine": "fuse",
+"options": null
+},
+"toc": {
+"collapse": "section"
+}
+});
+});
+</script>
+
+</body>
+
+</html>

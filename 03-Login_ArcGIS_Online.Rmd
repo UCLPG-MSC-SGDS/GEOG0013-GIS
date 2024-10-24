@@ -24,7 +24,7 @@ Let us go through these dataset are:
 **Video [Explanation]: Datasets (Length: 11:57 mins)**
 ```{r video_3, warnings=FALSE, message=FALSE, echo=FALSE}
 library(vembedr)
-embed_msstream('43d0ddc3-3242-493e-b01f-f34a5c0c8b71') %>% use_align('center')
+embed_msstream('43d0ddc3-3242-493e-b01f-f34a5c0c8b71', height=400) %>% use_align('center')
 ```
 
 If the video does not play within this section, then try playing it from Microsoft Streams - you should be able to view it there using this [**LINK**](https://web.microsoftstream.com/video/43d0ddc3-3242-493e-b01f-f34a5c0c8b71)
@@ -42,7 +42,7 @@ UCL has a licence for **ArcGIS Online**. You can easily access and start using i
 **Video [Tutorials]: Logging into ArcGIS Online (Length: 05:32 mins)**
 ```{r video_4, warnings=FALSE, message=FALSE, echo=FALSE}
 library(vembedr)
-embed_msstream('9b4b5bf9-75ba-441e-987e-2f93403286f7') %>% use_align('center')
+embed_msstream('9b4b5bf9-75ba-441e-987e-2f93403286f7', height=400) %>% use_align('center')
 ```
 
 If the video does not play within this section, then try playing it from Microsoft Streams - you should be able to view it there using this [**LINK**](https://web.microsoftstream.com/video/9b4b5bf9-75ba-441e-987e-2f93403286f7)
@@ -65,7 +65,7 @@ Here are the steps:
 **Video [Tutorials]: Starting a new map project in ArcGIS Online & set-up (Length: 04:46 mins)**
 ```{r video_2, warnings=FALSE, message=FALSE, echo=FALSE}
 library(vembedr)
-embed_msstream('05ba4760-d042-4e14-a3ed-69973e8ec395') %>% use_align('center')
+embed_msstream('05ba4760-d042-4e14-a3ed-69973e8ec395', height=400) %>% use_align('center')
 ```
 
 If the video does not play within this section, then try playing it from Microsoft Streams - you should be able to view it there using this [**LINK**](https://web.microsoftstream.com/video/05ba4760-d042-4e14-a3ed-69973e8ec395)
@@ -95,7 +95,7 @@ Here, we are going to start importing all our spatial data sets into ArcGIS Map.
 **Video [Tutorials]: How to import spatial data and apply various customisations and symbologies (Length: 29:18 mins)**
 ```{r video_5, warnings=FALSE, message=FALSE, echo=FALSE}
 library(vembedr)
-embed_msstream('75855486-d31b-431e-a5d2-549a86e9a0f8') %>% use_align('center')
+embed_msstream('75855486-d31b-431e-a5d2-549a86e9a0f8', height=400) %>% use_align('center')
 ```
 
 If the video does not play within this section, then try playing it from Microsoft Streams - you should be able to view it there using this [**LINK**](https://web.microsoftstream.com/video/75855486-d31b-431e-a5d2-549a86e9a0f8)
@@ -138,7 +138,7 @@ We are going to take a look at how we can configure images to pop-up at features
 **Video [Tutorials]: How to import and configure images to pop-up from interactive map (Length: 41:26 mins)**
 ```{r video_6, warnings=FALSE, message=FALSE, echo=FALSE}
 library(vembedr)
-embed_msstream('aee33b7f-ed44-4eaa-9b7a-0ea3c947610a') %>% use_align('center')
+embed_msstream('aee33b7f-ed44-4eaa-9b7a-0ea3c947610a', height=400) %>% use_align('center')
 ```
 
 If the video does not play within this section, then try playing it from Microsoft Streams - you should be able to view it there using this [**LINK**](https://web.microsoftstream.com/video/aee33b7f-ed44-4eaa-9b7a-0ea3c947610a)
@@ -197,7 +197,7 @@ Watch through the video carefully to see the steps.
 **Video [Tutorials]: How to build a StoryMap in ArcGIS Online (Length: 25:24 mins)**
 ```{r video_7, warnings=FALSE, message=FALSE, echo=FALSE}
 library(vembedr)
-embed_msstream('aba53b1e-47a5-4dea-b957-c865a350cb21') %>% use_align('center')
+embed_msstream('aba53b1e-47a5-4dea-b957-c865a350cb21', height=400) %>% use_align('center')
 ```
 [**LINK**](https://web.microsoftstream.com/video/aba53b1e-47a5-4dea-b957-c865a350cb21)
 
@@ -205,7 +205,7 @@ embed_msstream('aba53b1e-47a5-4dea-b957-c865a350cb21') %>% use_align('center')
 **Video [Tutorials]: How to publish your StoryMap and wrap-up video (Length: 07:15 mins)**
 ```{r video_8, warnings=FALSE, message=FALSE, echo=FALSE}
 library(vembedr)
-embed_msstream('7587496a-5a82-4a24-b8cc-1e3c28994d72') %>% use_align('center')
+embed_msstream('7587496a-5a82-4a24-b8cc-1e3c28994d72', height=400) %>% use_align('center')
 ```
 [**LINK**](https://web.microsoftstream.com/video/7587496a-5a82-4a24-b8cc-1e3c28994d72)
 
