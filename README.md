@@ -1,13 +1,21 @@
-Welcome! 
+# GEOG0013: Geography in the Field 1 (GIF1)
 
-This is a minimal example of a book based on R Markdown and **bookdown** (https://github.com/rstudio/bookdown). 
+This GitHub repository creates the workshop content for Introduction to GIS and ArcGIS StoryMaps for the module [GEOG0013 Geography in the Field 1 (GIF1)][course] at the [University College London][uni]'s [Department of Geography][dept]. It contains the tutorials as follows:
 
-This template provides a skeleton file structure that you can edit to create your book. 
+Part 1: Data Collection for Field Trip <br/> Part 2: Arc
 
-The contents inside the .Rmd files provide some pointers to help you get started, but feel free to also delete the content in each file and start fresh.
+It can be found here: https://uclpg-msc-sgds.github.io/GEOG0013/
 
-Additional resources:
+Shield: [![CC BY-SA 4.0][cc-by-sa-shield]][cc-by-sa]
 
-The **bookdown** book: https://bookdown.org/yihui/bookdown/
+This work is licensed under a
+[Creative Commons Attribution-ShareAlike 4.0 International License][cc-by-sa].
 
-The **bookdown** package reference site: https://pkgs.rstudio.com/bookdown
+[![CC BY-SA 4.0][cc-by-sa-image]][cc-by-sa]
+
+[cc-by-sa]: http://creativecommons.org/licenses/by-sa/4.0/
+[cc-by-sa-image]: https://licensebuttons.net/l/by-sa/4.0/88x31.png
+[cc-by-sa-shield]: https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey.svg
+[course]: https://www.ucl.ac.uk/module-catalogue/modules/GEOG0013
+[uni]: https://www.ucl.ac.uk
+[dept]: https://www.geog.ucl.ac.uk
