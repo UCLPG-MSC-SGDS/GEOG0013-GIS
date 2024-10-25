@@ -1,6 +1,6 @@
 # Section 1: Creating an interactive map {-}
 
-## Download the required datasets {-}
+## [1] Download the required datasets {-}
 
 We are going to recreate the following story map titled: [**"Short Revisit to the Cholera Outbreak in Soho, London (1854)"**](https://arcg.is/5SaXT). In order to recreate it, please download the required data:
 
@@ -19,62 +19,46 @@ The shared folder contains the following data:
 |SHP | Zipped compressed folder containing shapefile of the area |
 |DOCX | A script to make your life less painful...|
 
-Let us go through these dataset are:
+Let us go through these dataset more in-depth in the video:
 
-**Video [Explanation]: Datasets (Length: 11:57 mins)**
-```{r video_3, warnings=FALSE, message=FALSE, echo=FALSE}
+**Video: About the Datasets (Length: 11:57 mins)**
+
+```{r, warnings=FALSE, message=FALSE, echo=FALSE}
 library(vembedr)
-embed_msstream('43d0ddc3-3242-493e-b01f-f34a5c0c8b71', height=400) %>% use_align('center')
+embed_youtube('VAiHsg8uBLs', height=400) %>% use_align('center')
 ```
+[[**Watch on YouTube**]](https://youtu.be/VAiHsg8uBLs)
 
-If the video does not play within this section, then try playing it from Microsoft Streams - you should be able to view it there using this [**LINK**](https://web.microsoftstream.com/video/43d0ddc3-3242-493e-b01f-f34a5c0c8b71)
+Alright - once you have watched the video, we can begin.
 
-<div class="note">
-**Important Notes:** Access to Microsoft Steams may require use of your UCL institutional login details 
-</div>
-
-Alright, let's begin.
-
-## How to log into ArcGIS Online {-}
+## [2] How to log into ArcGIS Online {-}
 
 UCL has a licence for **ArcGIS Online**. You can easily access and start using it via main website at [**https://www.arcgis.com/**](https://www.arcgis.com/). You will need to use your own UCL institutional login to be granted access to **ArcGIS Online**. Note that the process of logging into **ArcGIS Online** is same way when you are logging into your UCL email via **MS Outlook**.
 
-**Video [Tutorials]: Logging into ArcGIS Online (Length: 05:32 mins)**
-```{r video_4, warnings=FALSE, message=FALSE, echo=FALSE}
-library(vembedr)
-embed_msstream('9b4b5bf9-75ba-441e-987e-2f93403286f7', height=400) %>% use_align('center')
-```
-
-If the video does not play within this section, then try playing it from Microsoft Streams - you should be able to view it there using this [**LINK**](https://web.microsoftstream.com/video/9b4b5bf9-75ba-441e-987e-2f93403286f7)
-
-<div class="note">
-**Important Notes:** Access to Microsoft Steams may require use of your UCL institutional login details 
-</div>
-
-Here are the steps:
+Here are the steps for logging to **ArcGIS Online**:
 
 1. Go on [**https://www.arcgis.com/**](https://www.arcgis.com/)
 2. Click on the **Sign In** button
 3. Select the section **"Your ArcGIS organization's URL"**
 4. Under the **"Your ArcGIS organization's URL"** section, type **UCLondon** and click the **Continue** button.
 5. You should see a new button that says **UCL SSO**. Click on the **UCL SSO** button.
-6. Here, you will be prompted to type your UCL email and its corresponding password credentials. Type these information to finally be granted access. 
+6. Here, you will be prompted to type your UCL email and its corresponding password credentials. Type these information to finally be granted access.
 
-## Starting a new ArcGIS Map project {-}
+You can view the video below which covers the steps in a detailed way.
 
-**Video [Tutorials]: Starting a new map project in ArcGIS Online & set-up (Length: 04:46 mins)**
-```{r video_2, warnings=FALSE, message=FALSE, echo=FALSE}
+**Video: How to log into ArcGIS Online (Length: 05:32 mins)**
+
+```{r, warnings=FALSE, message=FALSE, echo=FALSE}
 library(vembedr)
-embed_msstream('05ba4760-d042-4e14-a3ed-69973e8ec395', height=400) %>% use_align('center')
+embed_youtube('ctiAjgoIgeA', height=400) %>% use_align('center')
 ```
+[[**Watch on YouTube**]](https://youtu.be/ctiAjgoIgeA)
 
-If the video does not play within this section, then try playing it from Microsoft Streams - you should be able to view it there using this [**LINK**](https://web.microsoftstream.com/video/05ba4760-d042-4e14-a3ed-69973e8ec395)
+## [3] Starting a new ArcGIS Map project {-}
 
-<div class="note">
-**Important Notes:** Access to Microsoft Steams may require use of your UCL institutional login details 
-</div>
+We will need to start a new project to build our interactive maps in ArcGIS online. Before we do so... here are the steps for getting the appropriate set-up. Please do this set-up so as to make the navigation through ArcGIS Map Viewer a lot easier and less painful experience!
 
-We will need to start a new project to build our interactive maps in ArcGIS online. Before we do so... here are the steps for getting the appropriate set-up. Please do this set-up so as to make navigation through ArcGIS Map Viewer a lot easier and less painful:
+Here are the steps:
 
 1. Head to your profile settings - you should see your user name (e.g., ucfxxxx@ucl.ac.uk_UCLondon) at the top right corner - click this section.
 2. Click **My settings**
@@ -82,7 +66,17 @@ We will need to start a new project to build our interactive maps in ArcGIS onli
 4. Select **Map Viewer Classic** (avoid selecting **Map Viewer** at all cost)
 5. Now, select **Map** located at the top menu bar to open a new project.
 
-## How to import spatial data into your new ArcGIS Map project {-}
+You can view the video below which cover these steps in a detailed way.
+
+**Video: Starting a new map project in ArcGIS Online & set-up (Length: 04:46 mins)**
+
+```{r, warnings=FALSE, message=FALSE, echo=FALSE}
+library(vembedr)
+embed_youtube('Af_BO3x9MBQ', height=400) %>% use_align('center')
+```
+[[**Watch on YouTube**]](https://youtu.be/Af_BO3x9MBQ)
+
+## [4] How to import spatial data & Customisation of symbologies into your new ArcGIS Map project {-}
 
 Here, we are going to start importing all our spatial data sets into ArcGIS Map. We will have to do this one file at a time. Let us import the data sets in the following order: 
 
@@ -92,19 +86,7 @@ Here, we are going to start importing all our spatial data sets into ArcGIS Map.
 - `Routes.gpx`
 - `Area.zip`
 
-**Video [Tutorials]: How to import spatial data and apply various customisations and symbologies (Length: 29:18 mins)**
-```{r video_5, warnings=FALSE, message=FALSE, echo=FALSE}
-library(vembedr)
-embed_msstream('75855486-d31b-431e-a5d2-549a86e9a0f8', height=400) %>% use_align('center')
-```
-
-If the video does not play within this section, then try playing it from Microsoft Streams - you should be able to view it there using this [**LINK**](https://web.microsoftstream.com/video/75855486-d31b-431e-a5d2-549a86e9a0f8)
-
-<div class="note">
-**Important Notes:** Access to Microsoft Steams may require use of your UCL institutional login details 
-</div>
-
-Here are the steps for importing data:
+We are going to start with the file titled `Houses_with_Cholera_deaths.csv`. Here are the steps for importing the data:
 
 1. Click on the **+Add** icon at the top of the viewer.
 2. A drop down menu should appear - select the option **Add Layer from File**
@@ -112,7 +94,9 @@ Here are the steps for importing data:
 4. Click the button **Upload** to upload the selected file.
 5. Finally, click on the button **IMPORT LAYER** to load the layer into the map project.
 
-**Customisation of symbologies**
+From this point, it is a matter of repeating the process to import the remaining files. You can view the video below which cover these steps in a detailed way.
+
+
 
 Upon loading the data, it will automatically take the first column (i.e, the house identification number) in the data and plot a proportional dot map which is obviously in incorrect. We want to plot this data as Location with a single symbol - preferably as a red colour to symbolise that these where homes with documented Cholera deaths. We can do the using the following steps:
 
@@ -124,6 +108,16 @@ Upon loading the data, it will automatically take the first column (i.e, the hou
 6. Consistency we also want the **OUTLINE** of the circle shape to be **RED** as well. Lets change the **OUTLINE** colour to **Red**. Click on **OUTLINE** and also select **Red** in that colour palette.
 7. Click **OK** in the small window to confirm colour selection.
 8. Finally, click **OK** about the bottom, and then click **DONE** for the final confirmation.
+
+**Video [Tutorials]: How to import spatial data and apply various customisations and symbologies (Length: 29:18 mins)**
+
+```{r, warnings=FALSE, message=FALSE, echo=FALSE}
+library(vembedr)
+embed_youtube('Af_BO3x9MBQ', height=400) %>% use_align('center')
+```
+[[**Watch on YouTube**]]()
+
+**
 
 **Rinse and repeat**
 
