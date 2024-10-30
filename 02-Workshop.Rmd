@@ -21,16 +21,16 @@ This is a 3-hour group computer practical workshop that will be delivered in-per
 
 |**Group**|**Date**|**Location**|
 |:--- |:---------        |:-----------------------   |
-|**A**|**Wednesday, 15/11**|IOE, Bedford Way (20) Room 425 (PC Lab 2), [**Map**](https://www.google.com/maps/dir/UCL+Main+Campus,+Gower+Street,+London/51.5230556,-0.1281389/@51.5238501,-0.1328513,399m/data=!3m1!1e3!4m9!4m8!1m5!1m1!1s0x48761b2f42906f4d:0xe2bdd108bab11257!2m2!1d-0.1344218!2d51.5244928!1m0!3e2?entry=ttu)|
-|**B**|**Wednesday, 15/11**| IOE, Bedford Way (20) Room 429 (PC Lab 1), [**Map**](https://www.google.com/maps/dir/UCL+Main+Campus,+Gower+Street,+London/51.5230556,-0.1281389/@51.5238501,-0.1328513,399m/data=!3m1!1e3!4m9!4m8!1m5!1m1!1s0x48761b2f42906f4d:0xe2bdd108bab11257!2m2!1d-0.1344218!2d51.5244928!1m0!3e2?entry=ttu)|
-|**C**|**Wednesday, 15/11**|Torrington Place (1-19) B07 Teal Room, [**Map**](https://www.google.com/maps/dir/UCL+Main+Campus,+Gower+Street,+London/51.521906,-0.134348/@51.5230001,-0.1354731,352m/data=!3m1!1e3!4m9!4m8!1m5!1m1!1s0x48761b2f42906f4d:0xe2bdd108bab11257!2m2!1d-0.1344218!2d51.5244928!1m0!3e2?entry=ttu) |
-|**D**|**Friday, 17/11**|Bedford Way (26) Room 316 Public Cluster, [**Map**](https://www.google.com/maps/dir/UCL+Main+Campus,+Gower+Street,+London/51.52392,-0.128788/@51.5240663,-0.1325471,403m/data=!3m1!1e3!4m9!4m8!1m5!1m1!1s0x48761b2f42906f4d:0xe2bdd108bab11257!2m2!1d-0.1344218!2d51.5244928!1m0!3e2?entry=ttu)|
-|**E**|**Friday, 17/11**| IOE, Bedford Way (20) Room 425 (PC Lab 2), [**Map**](https://www.google.com/maps/dir/UCL+Main+Campus,+Gower+Street,+London/51.5230556,-0.1281389/@51.5238501,-0.1328513,399m/data=!3m1!1e3!4m9!4m8!1m5!1m1!1s0x48761b2f42906f4d:0xe2bdd108bab11257!2m2!1d-0.1344218!2d51.5244928!1m0!3e2?entry=ttu)|
-|**F**|**Friday, 17/11**|UCL School of Pharmacy Room B37, [**Map**](https://www.google.com/maps/dir/UCL+Main+Campus,+Gower+Street,+London/51.525038,-0.122356/@51.5237371,-0.1303958,16.77z/data=!4m9!4m8!1m5!1m1!1s0x48761b2f42906f4d:0xe2bdd108bab11257!2m2!1d-0.1344218!2d51.5244928!1m0!3e2?entry=ttu)|
-|**G**|**Friday, 17/11**|IOE, Bedford Way (20) Room W3.05, [**Map**](https://www.google.com/maps/dir/UCL+Main+Campus,+Gower+Street,+London/51.5230556,-0.1281389/@51.5238501,-0.1328513,399m/data=!3m1!1e3!4m9!4m8!1m5!1m1!1s0x48761b2f42906f4d:0xe2bdd108bab11257!2m2!1d-0.1344218!2d51.5244928!1m0!3e2?entry=ttu)|
+|**A**|**Wednesday, 13/11**| Bedford Way (26) Room 316 (Public Cluster), [**Map**](http://www.ucl.ac.uk/maps/26-bedford-way)|
+|**B**|**Wednesday, 13/11**| Foster Court, Room B29 (Public Cluster), [**Map**](http://www.ucl.ac.uk/maps/foster-court)|
+|**C**|**Wednesday, 13/11**| IOE, Bedford Way (20) Room 790, [**Map**](http://www.ucl.ac.uk/maps/ioe) |
+|**D**|**Friday, 15/11**| Chadwick Building, Room 2.23 (Public Cluster) [**Map**](http://www.ucl.ac.uk/maps/chadwick-building)|
+|**E**|**Friday, 15/11**| IOE, Bedford Way (20) Room 425 (PC Lab 2), [**Map**](http://www.ucl.ac.uk/maps/ioe)|
+|**F**|**Friday, 15/11**| Foster Court, Room 233, [**Map**](http://www.ucl.ac.uk/maps/foster-court)|
+|**G**|**Friday, 15/11**| UCL GOSICH - Wolfson Centre Room D (Ground Floor), [**Map**](http://www.ucl.ac.uk/maps/ich-wolfson-centre)|
 
 <div class="note">
-**IMPORTANT NOTE**: The locations are public clusters with PC workstations. However, I highly recommend you bring your own laptop for computer practicals as it will make data transfer (and life) incredibly easy.  
+**IMPORTANT NOTE**: The locations for groups **A, B, D, E, G** are public clusters with PC workstations. For groups **C and F**, please bring your own laptop for computer practicals as these are standalone rooms.  
 </div>
 
 ## Self-guided tutorials {-}
@@ -45,7 +45,7 @@ The workshop is split into **two** main sections:
 The whole point of these tutorials are to provide you with guidance on how you can make you own interactive maps and StoryMap application with you own data collected from Barcelona, or London. 
 
 <div class="note">
-**IMPORTANT NOTE**: You must create a StoryMap with the lore elements of your theme and the interactive map embedded to it, which must be submitted as a link using the submission sheet. This assignment is worth 10.0% of the assessment, and the deadline is on **Friday, 8th December before 12:00pm** 
+**IMPORTANT NOTE**: You must create a StoryMap with the lore elements of your theme and the interactive map embedded to it, which must be submitted as a link using the submission sheet. This assignment is worth 10.0% of the assessment, and the deadline is on **Friday, 6th December before 12:00pm** 
 </div>
 
 ## Questions & Discusson Forum on Moodle {-}

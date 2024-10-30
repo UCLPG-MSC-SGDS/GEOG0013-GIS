@@ -94,9 +94,7 @@ We are going to start with the file titled `Houses_with_Cholera_deaths.csv`. Her
 4. Click the button **Upload** to upload the selected file.
 5. Finally, click on the button **IMPORT LAYER** to load the layer into the map project.
 
-From this point, it is a matter of repeating the process to import the remaining files. You can view the video below which cover these steps in a detailed way.
-
-
+From this point, it is a matter of repeating the process to import the remaining files.
 
 Upon loading the data, it will automatically take the first column (i.e, the house identification number) in the data and plot a proportional dot map which is obviously in incorrect. We want to plot this data as Location with a single symbol - preferably as a red colour to symbolise that these where homes with documented Cholera deaths. We can do the using the following steps:
 
@@ -109,37 +107,23 @@ Upon loading the data, it will automatically take the first column (i.e, the hou
 7. Click **OK** in the small window to confirm colour selection.
 8. Finally, click **OK** about the bottom, and then click **DONE** for the final confirmation.
 
+Again, its all **rinse and repeat**. We can repeat the above steps for importing the point data for `Houses_with_no_Cholera_deaths.csv` and assign its symbology a **Green** colour. For the `Pump_Locations.csv` data, we can change the **Shape Category** and select one of the markers under the **Points of Interest** category. We can also apply the label names of the pumps from the `Pump_Locations.csv` to show using the **Create Labels** option. Watch the video carefully to see how this is done.
+
+Note that when importing line and polygon data for the `Routes.gpx` and `Area.zip`, respectively, it is essentially the same steps as the above. You may choose to make the symbology for the routes data a thin line by reducing its width and render its line style as a dashed line. For the area - you can make its colour fill 100% transparent. We only want to see the borders of the Soho area only. Watch the video carefully to see how these customisation are done.
+
+You can view the video below which cover these steps for importing data and customising the data in a detailed way.
+
 **Video [Tutorials]: How to import spatial data and apply various customisations and symbologies (Length: 29:18 mins)**
 
 ```{r, warnings=FALSE, message=FALSE, echo=FALSE}
 library(vembedr)
-embed_youtube('Af_BO3x9MBQ', height=400) %>% use_align('center')
+embed_youtube('XtbzoUOmiGg', height=400) %>% use_align('center')
 ```
-[[**Watch on YouTube**]]()
+[[**Watch on YouTube**]](https://youtu.be/XtbzoUOmiGg)
 
-**
-
-**Rinse and repeat**
-
-We can repeat the above steps for importing the point data for `Houses_with_no_Cholera_deaths.csv` and assign its symbology a **Green** colour. For the `Pump_Locations.csv` data, we can change the **Shape Category** and select one of the markers under the **Points of Interest** category. We can also apply the label names of the pumps from the `Pump_Locations.csv` to show using the **Create Labels** option. Watch the video carefully to see how this is done.
-
-When importing line and polygon data for the `Routes.gpx` and `Area.zip`, respectively. It is essentially the same steps as the above. You may choose to make the symbology for the routes data a thin line by reducing its width and render its line style as a dashed line. For the area - you can make its colour fill 100% transparent. We only want to see the borders of the Soho area only. Watch the video carefully to see how these customisation are done. 
-
-## How to import and configure pop-ups images for point of interest {-}
+## [5] How to import and configure pop-ups images for point of interest {-}
 
 We are going to take a look at how we can configure images to pop-up at features considered to be points of interest. But first, we will need to import them into a repository called **Contents**. Let us see how to import image files (**.png** or **.jpeg** etc.,) into my **Contents** in ArcGIS Online.
-
-**Video [Tutorials]: How to import and configure images to pop-up from interactive map (Length: 41:26 mins)**
-```{r video_6, warnings=FALSE, message=FALSE, echo=FALSE}
-library(vembedr)
-embed_msstream('aee33b7f-ed44-4eaa-9b7a-0ea3c947610a', height=400) %>% use_align('center')
-```
-
-If the video does not play within this section, then try playing it from Microsoft Streams - you should be able to view it there using this [**LINK**](https://web.microsoftstream.com/video/aee33b7f-ed44-4eaa-9b7a-0ea3c947610a)
-
-<div class="note">
-**Important Notes:** Access to Microsoft Steams may require use of your UCL institutional login details 
-</div>
 
 Here are the following steps:
 
@@ -175,34 +159,40 @@ Here are the following steps:
 12. Click on the new **Camera Icon** and set the **Symbol Size** to your preference and click **OK**, and click **CLOSE**.
 13. Lastly, click on **Edit** to close out of the editing mode.
 
-If you click on the **Camera Icon**, a pop-up feature with the image and description of the location will appear. Now, we rinse and repeat for the other locations. Watch the video carefully to see how these customisation are done for the remaining images.
+If you click on the **Camera Icon**, a pop-up feature with the image and description of the location will appear. Now, we rinse and repeat for the other locations. Watch the video carefully to see how these customisation are done for the remaining images. Now, make the final save to complete the interactive map and progress to section 2.
 
-Make the final save to complete the interactive map. 
+Note that you can view the video below which cover these steps in a much detailed manner. 
 
-# Section 2: Creating a StoryMaps application {-}
+**Video [Tutorials]: How to import and configure images to pop-up from interactive map (Length: 41:26 mins)**
+
+```{r, warnings=FALSE, message=FALSE, echo=FALSE}
+library(vembedr)
+embed_youtube('ZrDfd3lT0Cc', height=400) %>% use_align('center')
+```
+[[**Watch on YouTube**]](https://youtu.be/ZrDfd3lT0Cc)
+
+# Section 2: Creating the StoryMap application {-}
 
 We will have a look at how create a StoryMap - creating them is an easy process. To start preparing a StoryMap:
 
 1. Go to the **Contents** page and click on the **Create app** button.
 2. Click on the **ArcGIS Storymaps** button to start building one.
 
-Watch through the video carefully to see the steps.
+Watch through the videoes carefully to see the steps.
 
-**Video [Tutorials]: How to build a StoryMap in ArcGIS Online (Length: 25:24 mins)**
-```{r video_7, warnings=FALSE, message=FALSE, echo=FALSE}
+**Video: How to build a StoryMap in ArcGIS Online (Length: 25:24 mins)**
+
+```{r, warnings=FALSE, message=FALSE, echo=FALSE}
 library(vembedr)
-embed_msstream('aba53b1e-47a5-4dea-b957-c865a350cb21', height=400) %>% use_align('center')
+embed_youtube('7Tgyk2lfwnY', height=400) %>% use_align('center')
 ```
-[**LINK**](https://web.microsoftstream.com/video/aba53b1e-47a5-4dea-b957-c865a350cb21)
+[[**Watch on YouTube**]](https://youtu.be/7Tgyk2lfwnY)
 
 
-**Video [Tutorials]: How to publish your StoryMap and wrap-up video (Length: 07:15 mins)**
-```{r video_8, warnings=FALSE, message=FALSE, echo=FALSE}
+**Video: How to publish your StoryMap and wrap-up video (Length: 07:15 mins)**
+
+```{r, warnings=FALSE, message=FALSE, echo=FALSE}
 library(vembedr)
-embed_msstream('7587496a-5a82-4a24-b8cc-1e3c28994d72', height=400) %>% use_align('center')
+embed_youtube('IK-WGEUUhbQ', height=400) %>% use_align('center')
 ```
-[**LINK**](https://web.microsoftstream.com/video/7587496a-5a82-4a24-b8cc-1e3c28994d72)
-
-<div class="note">
-**Important Notes:** Access to Microsoft Steams may require use of your UCL institutional login details 
-</div>
+[[**Watch on YouTube**]](https://youtu.be/IK-WGEUUhbQ)
