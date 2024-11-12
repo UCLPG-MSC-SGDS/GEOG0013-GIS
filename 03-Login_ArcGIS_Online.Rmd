@@ -4,7 +4,7 @@
 
 We are going to recreate the following story map titled: [**"Short Revisit to the Cholera Outbreak in Soho, London (1854)"**](https://arcg.is/5SaXT). In order to recreate it, please download the required data:
 
-[**[DOWNLOAD DATA]**](https://github.com/UCLPG-MSC-SGDS/GEOG0013-GIS/raw/main/Data.zip)
+[**[DOWNLOAD DATA]**](https://github.com/UCLPG-MSC-SGDS/GEOG0013-GIS/raw/main/data/Data/Raw/Data.zip)
 
 The shared folder contains the following data:
 

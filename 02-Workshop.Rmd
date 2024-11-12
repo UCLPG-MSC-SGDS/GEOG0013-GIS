@@ -30,7 +30,7 @@ This is a 3-hour group computer practical workshop that will be delivered in-per
 |**G**|**Friday, 15/11**| UCL GOSICH - Wolfson Centre Room D (Ground Floor), [**Map**](http://www.ucl.ac.uk/maps/ich-wolfson-centre)|
 
 <div class="note">
-**IMPORTANT NOTE**: The locations for groups **A, B, D, E, G** are public clusters with PC workstations. For groups **C and F**, please bring your own laptop for computer practicals as these are standalone rooms.  
+**IMPORTANT NOTE**: The locations for groups **A, B, D, E, G** are public clusters with PC workstations. For groups **C and F**, please bring your own laptop for the computer practicals as these are standalone rooms.  
 </div>
 
 ## Self-guided tutorials {-}
