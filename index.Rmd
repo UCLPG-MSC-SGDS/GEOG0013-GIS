@@ -27,7 +27,7 @@ This resource is split into **two** parts:
 - **Part 1** of this resource contains the necessary self-guided training materials such as **guidance notes** and **demonstrative videos** for using the smartphone applications such as **Google Earth APP** and **Strava** for collecting your geotagged data in London & Barcelona.
 - **Part 2** contains the information needed to developing your own **Story Maps** using the online platform called **ArcGIS Online**. You will need the data collected from the activities in London & Barcelona to complete the assignment. The GIS workshops will be on **Wednesday 13th November**, and **Friday 15th November**. The learning content for **Part 2** will be released a week ahead of these dates.
 
-**Contact information:**
+**Author information:**
 
 Anwar Musah | Lecturer in Social & Geographic Data Science </br>
 UCL Department of Geography </br>

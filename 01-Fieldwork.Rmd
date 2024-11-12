@@ -67,7 +67,7 @@ knitr::include_graphics('images/general/Preparation/2_Select_your_route.png')
 knitr::include_graphics('images/general/Preparation/3_Exporting_gpx.png') 
 ```
 
-### [2] Compiling you geo-tagged data into a spreadsheet {-}
+### [2] Compiling your geo-tagged data into a spreadsheet {-}
 
 You should compile your geo-tagged data into a spreadsheet and save it as a comma separated value format (.csv). We highly encouraged you work as a group in compiling your dataset together. Here are the steps:
 
